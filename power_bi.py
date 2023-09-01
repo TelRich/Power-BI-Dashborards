@@ -4,6 +4,12 @@ import streamlit.components.v1 as components
 # Setting th epage size and title
 st.set_page_config(layout='wide', page_title='Power BI Portfolio')
 
+st.markdown("<h1 style='text-align:center;'>Welcome to my Power BI Portfolio📉📊📈😊🤝</h1>", unsafe_allow_html=True)
+
+st.markdown("""
+            ### [**GitHub**](https://github.com/TelRich) | [**LinkedIn**](https://www.linkedin.com/in/goodrichokoro/) | [**Twitter**](https://twitter.com/OkoroGoodrich)
+            """)
+
 with st.expander(':red[Supply Chain Industry]', expanded=True):
   power = """<iframe title="Report Section" width="1200" height="1000" 
               src="https://app.powerbi.com/view?r=eyJrIjoiZWEwNDMzMzItMTdmYS00Yzg5LTliOTYtMjhjMTg2MTQxZjcwIiwidCI6ImNlMzBlNGMzLWM4NjItNGVlZC1hMzdjLWU3NmJjODNhY2ZmYSJ9" 
@@ -21,6 +27,12 @@ with st.expander(':red[Investment Industry]', expanded=True):
               src="https://app.powerbi.com/view?r=eyJrIjoiMTU0MTI4YmUtMjQzYi00OGNjLTk5MzgtMmNhM2UwMzlkNDI3IiwidCI6ImNlMzBlNGMzLWM4NjItNGVlZC1hMzdjLWU3NmJjODNhY2ZmYSJ9" 
               frameborder="0" allowFullScreen="true"></iframe>"""
   components.html(power, height=1010, width=1800)
+  
+with st.expander(':red[Sales Industry]', expanded=True):
+  power = """<iframe title="Report Section" width="1200" height="1000" 
+              src="https://app.powerbi.com/view?r=eyJrIjoiMWI5MzY2NmUtYmU2Mi00OGZlLTkzMDAtZjBmNjBiMmRmODAxIiwidCI6ImNlMzBlNGMzLWM4NjItNGVlZC1hMzdjLWU3NmJjODNhY2ZmYSJ9" 
+              frameborder="0" allowFullScreen="true"></iframe>"""
+  components.html(power, height=1010, width=1800)  
 
 with st.expander(':red[Education Industry]', expanded=True):
   power = """<iframe title="Report Section" width="1200" height="1000" 
@@ -52,4 +64,3 @@ with st.expander(':red[Sales Industry]', expanded=True):
               frameborder="0" allowFullScreen="true"></iframe>"""
   components.html(power, height=1010, width=1800)   
 
-# <iframe title="Report Section" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiZjcyYTY2ZGUtYWJmYS00YzNkLWI5ZGItYmM5NjhjNjY4MmE3IiwidCI6ImNlMzBlNGMzLWM4NjItNGVlZC1hMzdjLWU3NmJjODNhY2ZmYSJ9" frameborder="0" allowFullScreen="true"></iframe>
