@@ -9,8 +9,16 @@ st.markdown("<h1 style='text-align:center;'>Welcome to my Power BI Portfolio📉
 st.markdown("""
             ### [**GitHub**](https://github.com/TelRich) | [**LinkedIn**](https://www.linkedin.com/in/goodrichokoro/) | [**Twitter**](https://twitter.com/OkoroGoodrich)
             """)
-# <iframe title="Report Section" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiOWQ1YzU1ZmYtNmMxYy00NDQzLWEzZWEtNDc4ZjY0NmIzMTUyIiwidCI6ImNlMzBlNGMzLWM4NjItNGVlZC1hMzdjLWU3NmJjODNhY2ZmYSJ9" frameborder="0" allowFullScreen="true"></iframe>
-with st.expander(':red[Sport]', expanded=True):
+
+# <iframe title="Report Section" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiNTc4NjBiMTctNmQ2Ny00OTQ0LThiMWUtNWY3MjYzMjEwYzdmIiwidCI6ImNlMzBlNGMzLWM4NjItNGVlZC1hMzdjLWU3NmJjODNhY2ZmYSJ9" frameborder="0" allowFullScreen="true"></iframe>
+
+with st.expander(':red[Health Industry]', expanded=True):
+  power = """<iframe title="Report Section" width="1200" height="1000" 
+              src="https://app.powerbi.com/view?r=eyJrIjoiNTc4NjBiMTctNmQ2Ny00OTQ0LThiMWUtNWY3MjYzMjEwYzdmIiwidCI6ImNlMzBlNGMzLWM4NjItNGVlZC1hMzdjLWU3NmJjODNhY2ZmYSJ9" 
+              frameborder="0" allowFullScreen="true"></iframe>"""
+  components.html(power, height=1010, width=1800)
+
+with st.expander(':red[Sport Industry]', expanded=True):
   power = """<iframe title="Report Section" width="1200" height="1000" 
               src="https://app.powerbi.com/view?r=eyJrIjoiOWQ1YzU1ZmYtNmMxYy00NDQzLWEzZWEtNDc4ZjY0NmIzMTUyIiwidCI6ImNlMzBlNGMzLWM4NjItNGVlZC1hMzdjLWU3NmJjODNhY2ZmYSJ9" 
               frameborder="0" allowFullScreen="true"></iframe>"""
